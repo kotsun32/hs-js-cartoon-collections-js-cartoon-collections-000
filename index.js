@@ -20,7 +20,7 @@ function summonCaptainPlanet(planeteerCalls) {
 function longPlaneteerCalls(words) {
  
 var long = false;
- for(var i = 0; i < words.length; i++){
+ for (var i = 0; i < words.length; i++){
  if(words[i].length > 4){
   long = true;
   }
@@ -31,11 +31,11 @@ var long = false;
 
 function findTheCheese (foods) {
  
-var cheese = ["cheddar", "gouda", "camembert"];
-  for (var i = 0; i < cheese.length; i++) {
-    if (foods.includes(cheese[i])) {
-      return cheese[i];
-    }
+var cheese = ["cheddar", "gouda", "thyme"];
+for (var i = 0; i < cheese.length; i++) {
+  if (foods.includes(cheese[i])) {
+    return cheese[i];
+  }
   }
   return "no cheese!";
   
