@@ -16,21 +16,22 @@ function summonCaptainPlanet(planeteerCalls) {
   return array
   }	
   
+
 function longPlaneteerCalls(words) {
  
-var long = false;
+var longword = false;
  for (var i = 0; i < words.length; i++){
  if(words[i].length > 4){
-  long = true;
+  longword = true;
   }
    }
-   return long;
+   return longword;
   }		  
 
 
 function findTheCheese (foods) {
  
-var cheese = ["cheddar", "gouda", "swiss"];
+var cheese = ["blue", "gouda", "swiss"];
 for (var i = 0; i < cheese.length; i++) {
   if (foods.includes(cheese[i])) {
     return cheese[i];
