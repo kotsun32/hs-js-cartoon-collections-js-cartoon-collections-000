@@ -30,7 +30,7 @@ var long = false;
 
 function findTheCheese (foods) {
  
-var cheese = ["cheddar", "gouda", "thyme"];
+var cheese = ["cheddar", "gouda", "swiss"];
 for (var i = 0; i < cheese.length; i++) {
   if (foods.includes(cheese[i])) {
     return cheese[i];
